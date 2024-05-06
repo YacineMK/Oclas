@@ -4,18 +4,21 @@
 
 @font-face {
     font-family: Meta;
-    src: url(../public/font/FontsFree-Net-Miedinger-W01-Bold.ttf);
+    src: url(/font/FontsFree-Net-Miedinger-W01-Bold.ttf);
 
 }
-h1 {
-    font-family: Meta;
-}
+
 
 body {
-    
+    font-family: "Poppins", sans-serif;
     color: #000;
     background-color: #F5F5F7;
-    height: 5000px;
+    overflow-x: hidden;
+}
+
+
+.hea {
+    font-family: Meta;
 }
 
 .canvas {
