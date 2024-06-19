@@ -9,8 +9,7 @@ function Model() {
     const obj = useRef(null)
     useFrame(() => {
         if (obj.current != null) {
-            obj.current.rotation.y += 0.001;
-
+            obj.current.rotation.y += 0.0009;
         }
     })
 

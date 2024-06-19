@@ -1,7 +1,7 @@
 import Logo from "/Logo.svg";
 import { RiMenu3Line } from "react-icons/ri";
 import { IoCloseSharp } from "react-icons/io5";
-import { Navlinks } from "../Data/content";
+import { Navlinks } from "../../Data/content";
 import { useEffect, useState } from "react";
 
 function Navbar() {
@@ -31,7 +31,7 @@ function Navbar() {
             className={`bg-white z-50 flex text-base h-[100px] w-auto font-medium items-center justify-between p-8 lg:px-20 lg:py-8`}
         >
             <a href="/">
-                <img src={Logo} alt="MCHack-Logo" width={90} height={35} />
+                <img src={Logo} alt="oclas" width={90} height={35} />
             </a>
             <nav
                 className={`fixed top-[105px] pb-7 left-0 bottom-[58%] gap-7 bg-white z-50 flex transition duration-900 border-b border-stone-100 right-0 flex-col justify-center items-center ${open ? "hidden translate-y-[-100%]" : " flex translate-y-0"
@@ -62,7 +62,7 @@ function Navbar() {
                     {Navlinks[3]}
                 </li>
             </nav>
-            <a href="https://microhack-registration.microclub.info">
+            <a href="#">
                 <button
                     className="hidden md:flex w-[125px] h-[45px]  rounded-md border border-black justify-center items-center  group "
                 >

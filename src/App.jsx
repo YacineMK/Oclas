@@ -1,8 +1,9 @@
 
 import Aboutus from "./components/Aboutus"
-import Footer from "./components/Footer"
+import Footer from "./components/Layout/Footer"
 import Hero from "./components/Hero"
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Layout/Navbar"
+
 
 
 function App() {
