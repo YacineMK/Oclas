@@ -4,7 +4,7 @@ import React from 'react'
 function Loading() {
     return (
         <Html>
-            <Loader barStyles={{ color: "black", backgroundColor: "black" }} />
+            <Loader dataStyles={{ color: "black" }} barStyles={{ color: "black", backgroundColor: "black" }} />
         </Html>
     )
 }

@@ -14,7 +14,7 @@ function Aboutus() {
         const animateImages = () => {
             if (img2.current) {
                 gsap.from(img2.current, {
-                    x: 80,
+                    x: 100,
                     opacity: 0,
                     ease: 'power3.out',
                     scrollTrigger: {
@@ -27,7 +27,7 @@ function Aboutus() {
             }
             if (img1.current) {
                 gsap.from(img1.current, {
-                    x: -80,
+                    x: -100,
                     opacity: 0,
                     ease: 'power3.out',
                     scrollTrigger: {
@@ -52,6 +52,7 @@ function Aboutus() {
             <div className='flex justify-center w-[100vw] mt-[10px] h-[500px]'>
                 <img src='/controller.png' ref={img1} className=' hidden md:flex' alt='controller' />
                 <img src='/controller.png' ref={img2} alt='controller' className=' rotate-180 hidden md:flex' />
+                
             </div>
         </div>
     )

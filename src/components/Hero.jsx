@@ -29,9 +29,9 @@ function Hero() {
     }, []);
     return (
         <div className='hea overflow-x-hidden flex flex-col text-center justify-center items-center'>
-            <h1 ref={textref} className='text-[48px] mt-[20px] md:text-[80px] z-20 md:mt-[50px]'>Oclas solutions</h1>
-            <p ref={pref}>for digital solutions</p> {/* Corrected the typo in "digital" */}
-            <div className='w-[100vw] mt-[40px] h-[500px]'>
+            <h1 ref={textref} className='text-5xl mt-5 mb-3 md:text-7xl z-20 md:mt-10'>Oclas solutions</h1>
+            <p ref={pref} className='text-2xl'>for digital solutions</p> {/* Corrected the typo in "digital" */}
+            <div className='w-screen mt-10 h-96'>
                 <Canvas >
                     <Suspense fallback={<Loading />}> 
                         <Model />
